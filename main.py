@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as Bsoup
 import requests
 import re
 
-# ie; conversion means the url which provvides conversion so named all the varaibles related to it with _conversion
+# ie; conversion means the url which provides conversion so named all the variables related to it with _conversion
 url_conversion = "https://www.extravelmoney.com/rates/"
 
 result_conversion = requests.get(url_conversion).text
